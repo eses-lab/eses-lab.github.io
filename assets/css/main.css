@@ -1,0 +1,62 @@
+/* Global styles */
+body {
+  /* font-family: Arial, sans-serif; */
+  font-family: 'Roboto', Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header,
+nav,
+main,
+footer {
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+nav ul li a:hover {
+  color: #f60;
+}
+
+/* Add more styles specific to your design here */
+/* Media queries for responsiveness */
+
+/* For tablets and larger phones */
+@media screen and (max-width: 768px) {
+  nav ul li {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  /* Add more responsive styles for smaller screens here */
+}
+
+/* For phones in portrait orientation */
+@media screen and (max-width: 480px) {
+  header,
+  nav,
+  main,
+  footer {
+    padding: 15px;
+  }
+
+  nav ul li {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  /* Add more responsive styles for very small screens here */
+}
